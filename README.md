@@ -1,8 +1,3 @@
-Yes. For GitHub, I would make the README **more complete and project-focused**, with the **local Flask URL `http://127.0.0.1:5000` clearly included**, database architecture, modules, SQL features, API details, setup, workflow, and screenshots section.
-
-You can replace your current `README.md` with the following.
-
-````markdown
 # Customer Relationship Management (CRM) System
 
 A database-driven **Customer Relationship Management (CRM) System** built using **Python, Flask, MySQL, SQL, HTML, and CSS**.
