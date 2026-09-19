@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<h1>Orders</h1><table><tr><th>Order ID</th><th>Customer</th><th>Employee</th><th>Date</th><th>Total</th></tr>{% for r in rows %}<tr><td>{{r.order_id}}</td><td>{{r.customer_name}}</td><td>{{r.employee_name}}</td><td>{{r.order_date}}</td><td>{{r.total_amount}}</td></tr>{% endfor %}</table>{% endblock %}
